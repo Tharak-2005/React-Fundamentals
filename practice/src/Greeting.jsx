@@ -1,9 +1,9 @@
 function Greeting(person){
-    console.log(typeof(person));
     
     return(
         <div>
-            <p>hi {person.receivedName},{person.age} </p>
+            <p>hi {person.receivedName} </p>
+            <p>{person.age}</p>
         </div>
     )
 }

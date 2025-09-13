@@ -1,0 +1,33 @@
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    border: 2px solid black;
+    
+
+}
+.title{
+    color:blue;
+}
+.price{
+    color:yellow;
+}
+.instock{
+    color:green
+}
+.outstock{
+    color:red
+}
+
+.img{
+    
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+
+
+}
+.details{
+    text-align: left;
+}

@@ -1,12 +1,10 @@
-function ProductCard(){
-    const productName="devastra"
-    const price=30
-    const isAvailable=true
+
+function ProductCard(product){
     return(
-        <div>
-            <p>Product name:{productName}</p>
-            <p>Price :{price}</p>
-            <p>{isAvailable==true?"Stock is available":"Stock is not available"}</p>
+        <div className="box1">
+            <h3 className="title">Product name:{product.productName}</h3>
+            <p className="price">Price :{product.price}</p>
+            {product.isAvailable===true?<p className="instock">In Stock</p>:<p className="outstock">Out of Stock</p>}
         </div>
     )
 }

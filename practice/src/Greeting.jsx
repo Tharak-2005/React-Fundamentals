@@ -1,9 +1,10 @@
-function Greeting(person){
+
+function Greeting({receivedName,age}){
     
     return(
         <div>
-            <p>hi {person.receivedName} </p>
-            <p>{person.age}</p>
+            <p >hi {receivedName} </p>
+            <p >{age}</p>
         </div>
     )
 }
